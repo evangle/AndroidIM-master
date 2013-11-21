@@ -31,7 +31,7 @@ public class SocketOperator implements ISocketOperator
 	private ServerSocket serverSocket = null;
 
 	private boolean listening;
-
+	int a ;
 	private class ReceiveConnection extends Thread {
 		Socket clientSocket = null;
 		public ReceiveConnection(Socket socket) 
